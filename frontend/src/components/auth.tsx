@@ -1,6 +1,6 @@
 import { SignupInput } from "@yogesh20012004/medium-common"
 import { ChangeEvent, useState } from "react"
-import { Link, Navigate, useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import  axios  from "axios"
 import { BACKEND_URL } from "../config"
 export const Auth = ({ type }: { type: "Signup" | "Signin" }) => {
